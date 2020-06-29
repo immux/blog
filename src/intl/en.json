@@ -1,0 +1,41 @@
+{
+  "header": {
+    "indexTitle": "Home",
+    "blogTitle": "Blog",
+    "contactTitle": "Contact"
+  },
+  "hero": {
+    "title": "Immux",
+    "subTitle": "Immutable computing service"
+  },
+  "whyImmux": {
+    "title": "Why Immux",
+    "featureImmutableTitle": "Immutable",
+    "featureImmutableDesc": "Immux is built on an immutable database. Histories are retained with time-travelling.",
+    "features": {
+      "immutable": {
+        "title": "Immutable",
+        "description": "Immux is built on an immutable database. Histories are retained with time-travelling."
+      },
+      "usable": {
+        "title": "Usable",
+        "description": "Immux provides straightforward and familiar interfaces. (Currently, it's a Redux.js-like interface. We expect to expand to other paradigms.)"
+      },
+      "auditable": {
+        "title": "Auditable",
+        "description": "All operations to the database are recorded. Every change to every datum can be explained."
+      },
+      "managed": {
+        "title": "Managed",
+        "description": "You write the logic, we manage the servers."
+      }
+    }
+  },
+  "subscription": {
+    "subscribeToUs": "Keep updated about us",
+    "subscribeBtn": "Subscribe"
+  },
+  "footer": {
+    "joinUs": "Join us"
+  }
+}

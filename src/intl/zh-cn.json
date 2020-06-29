@@ -1,0 +1,39 @@
+{
+  "header": {
+    "indexTitle": "首页",
+    "blogTitle": "博客",
+    "contactTitle": "联系我们"
+  },
+  "hero": {
+    "title": "Immux",
+    "subTitle": "不可变计算平台"
+  },
+  "whyImmux": {
+    "title": "Immux独特之处",
+    "features": {
+      "immutable": {
+        "title": "不可变",
+        "description": "Immux运行在不可变（Immutable）数据库之上，自动保存数据变动历史"
+      },
+      "usable": {
+        "title": "易用",
+        "description": "简单熟悉的操作接口（目前有Redux.js的接口）"
+      },
+      "auditable": {
+        "title": "可审计",
+        "description": "所有数据状态改变都记录在案，每一个数据的变动历史都可以解释"
+      },
+      "managed": {
+        "title": "全托管",
+        "description": "您只管实现逻辑，我们来做服务器运维"
+      }
+    }
+  },
+  "subscription": {
+    "subscribeToUs": "订阅Immux新闻",
+    "subscribeBtn": "订阅"
+  },
+  "footer": {
+    "joinUs": "加入我们"
+  }
+}
