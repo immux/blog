@@ -1,0 +1,19 @@
+@import '../../scss/common.scss';
+
+.feature-item {
+    width: 50%;
+    @media (max-width: $breakpoint-tablet) {
+        width: 100%;
+    }
+
+    .subtitle {
+        line-height: 1;
+    }
+}
+
+.feature-desc {
+    @media (max-width: $breakpoint-tablet) {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+}

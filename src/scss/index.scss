@@ -1,0 +1,32 @@
+@import './fonts.scss';
+@import './colors.scss';
+@import './common.scss';
+
+.banner {
+    height: 368px;
+    color: #8e5821;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/img/hero.png") center center / cover no-repeat;
+
+    @media (min-width: $breakpoint-tablet) {
+        height: 768px;
+    }
+}
+
+.hero-title-wrapper {
+    margin: 0px auto;
+    font-weight: bold;
+    font-size: $display4-size;
+}
+
+.hero-title {
+    font-size: $display3-size;
+}
+
+.hero-subtitle {
+    font-size: $display4-size;
+}
+

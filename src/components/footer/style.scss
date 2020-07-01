@@ -1,0 +1,27 @@
+@import 'scss/colors.scss';
+
+.footer {
+  background: #f7f7f7;
+
+  hr {
+    border-color: $red;
+    border-width: 3px;
+    max-width: 50px;
+  }
+
+  a {
+    font-weight: 600;
+    color: $gray-700;
+    font-size: 18px;
+
+    &:hover,
+    &:focus {
+      color: $link-color;
+    }
+  }
+
+  .copyright {
+    color: #6c7496;
+    font-size: 14px;
+  }
+}
