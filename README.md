@@ -66,10 +66,10 @@ Checkout the i18n plugin [documentation](https://github.com/wiziple/gatsby-plugi
 
 ## Deploy
 
-> Todo
+> Deploy
 
 ```sh
-gatsby build
+npm run deploy
 # Then in the public directory will be files to copy to the server.
 ```
 
