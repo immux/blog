@@ -77,7 +77,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build && ./deploy.sh",
+    "deploy": "./deploy.sh",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.+(js|json|md)\" --ignore-path .gitignore",
     "lint": "eslint --fix --ext .js,.jsx --ignore-path .gitignore .",
